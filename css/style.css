@@ -1,0 +1,251 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+    font-weight: 400;
+    color: #999999;	
+}
+/*common end*/
+/*header start*/
+header{
+	/*border: 1px solid red;*/
+	padding: 18px 0px 18px 85px;
+	background-color: #f6f9f9;
+	display: block;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+.logo{
+	width: 12%;
+	
+}
+.logo img{
+	width: 100%;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding-top: 100px;
+	padding-bottom: 80px;
+	background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 2.5;
+
+}
+.container1{
+	margin: 0 auto;
+    width: 85%;
+    overflow: hidden;
+}
+.content{
+	margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+.content h1{
+	margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 20px 0;
+    font-family: 'Lato-Bold' sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: 2px solid blue;
+}
+.content p{
+	font-family: 'Lato-Regular' sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+.btn{
+	margin-top: 50px;
+    width: 175px;
+    height: 55px;
+    font-family: 'Lato-Regular' sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: transparent;
+    color: black;
+    border: 2px solid #15a4fa;
+    border-radius: 5px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+/*.content a{*/
+	margin-top: 100px;
+    display: block;
+}
+/*banner end*/
+/*simple start*/
+.simple{
+	overflow: hidden;
+	width: 100%;
+}
+.container2{
+	text-align: center;
+	background-color: #f6f9f9; 
+}
+.s_content{
+	display: block;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.s_content h2{
+	font-family: 'Lato-Regular' sans-serif;
+	font-size: 40px;
+    font-weight: 400;
+    color: #2d3950;
+}
+.s_content p{
+	line-height:35px;
+	font-family: 'Lato-Regular' sans-serif;
+	font-size: 20px;
+    font-weight: 400;
+    color: #9f9f9f;
+}
+/*simple end*/
+
+/*icon start*/
+.icon{
+    padding: 60px 0;
+}
+.container3{
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    width: 75%;
+    overflow: hidden;
+}
+.i_content{}
+
+.one{
+    padding: 0 10px;
+    margin-right: 110px;
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+.one img{
+    margin: 0 auto;
+    width: 50%;
+}
+img{
+    width: 100%;
+}
+.one h2{
+    font-size: 22px;
+    font-family: 'Lato-Regular' sans-serif;
+    font-weight: 400;
+    color: #2d3950;
+}
+.one p{
+    font-size: 15px;
+    font-family: 'Lato-Regular' sans-serif;
+    font-weight: 400;
+    color: #999999;
+}
+.one:last-child{
+    margin-right: 0;
+}   
+/*icon end*/
+/*showcase start*/
+.showcase{
+    padding: 50px 0;
+    background-color: #f6f9f9;
+    text-align: center;
+
+}
+h1{
+    font-size: 41px;
+    font-family: 'Lato-Regular' sans-serif;
+    font-weight: 400;
+    color: #2d3950;
+}
+p{
+    font-size: 15px;
+    font-family: 'Lato-Regular' sans-serif;
+    font-weight: 400;
+    color: #999999;  
+}
+.sc_content{
+    margin-top: 80px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.show_img{
+    margin-bottom: 30px;
+    padding: 0 1.6%;
+    width: 30%;
+    float: left;
+}
+.show_img img{
+    width: 100%;
+}
+/*showcase end*/
+/*contact start*/
+.contact{
+    min-height: 500px;
+    background-image: url(../images/newscover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.info{
+    text-align: center;
+}
+.info h1{
+    font-size: 41px;
+    font-family: 'Lato-Regular' sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.info p{
+    font-size: 15px;
+    font-family: 'Lato-Regular' sans-serif;
+    font-weight: 400;
+    color: white;    
+}
+/*contact end*/
+/*footer start*/
+.container4{
+    margin: 0 auto;
+    width: 75%;
+    overflow: hidden;
+    background-color: #f6f9f9; 
+}
+.f_content{
+    padding: 10px 0;   
+}
+.f_text{
+    padding-top: 10px;
+    width: 35%;
+    float: left;
+}
+.f_text p{
+    font-size: 15px;
+    font-family: 'Lato-Regular' sans-serif;
+    font-weight: 400;
+    color: #999999; 
+}
+.f_icon{
+    width: 50%;
+    float: right;
+}
+.f_icon ul{
+    float: right;
+    list-style: none; 
+}
+.f_icon ul li{
+     margin-right: 5px;
+    float: left;  
+}
+/*footer end*/
